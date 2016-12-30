@@ -12,6 +12,7 @@ This file tests for all possible diagnostic signals. COMING SOON.
 
 ## Resources
 For more information on standard diagnostic OBD specification, go to: https://en.wikipedia.org/wiki/OBD-II_PIDs
+Note: to obtain the integer PID, run (for example) "int("0x51", 0)" in Python. Or, to convert from int to hex, run (for example) "hex(2025)"
 
 # CAN Messages Firmware
 COMING SOON
