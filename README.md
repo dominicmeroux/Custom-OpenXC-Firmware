@@ -1,6 +1,15 @@
 # Intro
 This firmware information is specified to work with the OpenXC Platform. For more information on how to set up prerequisites, go to: http://vi-firmware.openxcplatform.com/en/latest/getting-started/getting-started.html
 
+# Firmware files - see Diagnostic Firmware and CAN Messages Firmware folders
+## *.bin
+For use with the Ford Reference VI
+
+## *.hex
+For use with CrossChasm devices; each is labeled with the corresponding device it was compiled for (COMING SOON)
+
+## OpenXC Vehicle Interfaces: https://shop.openxcplatform.com
+
 # Diagnostic Firmware
 The purpose of these configurations is to collect standard diagnostic messages only. Note: messages that you receive will vary by vehicle (for example, 'ethanol_fuel_percentage' worked on a flex-fuel Zipcar Ford Focus I tested out, but did not show up on any standard gasoline-only vehicles I have tested). 
 
