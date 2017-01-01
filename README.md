@@ -18,3 +18,9 @@ Note: to obtain the integer PID, run (for example) "int("0x51", 0)" in Python. O
 
 # CAN Messages Firmware
 COMING SOON
+
+# Bicycle Data Emulator
+Use the modified data_emulator.cpp file in place of the file with the same name in the vi-firmware directory (once you have your environment set up). 
+
+The purpose of this file is to use the existing OpenXC vehicle interfaces in emulator mode to send signals that would be sent from a bicycle data logger. Most of the data points are based on the screenshot of data from the InfoCycle project. This screenshot is found at: https://media.ford.com/content/fordmedia/fna/us/en/news/2015/01/06/mobility-experiment-info-cycle-palo-alto-california.html
+
