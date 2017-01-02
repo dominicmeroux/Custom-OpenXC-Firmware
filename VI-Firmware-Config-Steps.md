@@ -21,8 +21,8 @@ $ openxc-generate-firmware-code --message-set CellTest1.json > src/signals.cpp
 
 2) Build firmware
 
-### Python hex to int function: print int("0x51", 0)
-### Python int to hex function: hex(2025)
+Python hex to int function: print int("0x51", 0)
+Python int to hex function: hex(2025)
 
 ### IF BUILDING WITH CROSSCHASM CELLULAR
 
@@ -92,15 +92,11 @@ Available commands:
 
 4) Retrieve firmware output file (.bin or .hex)
 
-## Ford Reference VI
-Output files in ~./vi-firmware/src/build/FORDBOARD in terminal 2
+Output files are located in ~./vi-firmware/src/build/FORDBOARD for Reference VI firmware; 
 
-## CrossChasm C5 Cellular
-For Crosschasm cellular go to CROSSCHASM_C5_CELLULAR directory instead of FORDBOARD
-
-## CrossChasm C5 BLE
-
-## CrossChasm C5 BT
+For the CrossChasm C5 Cellular, replace "FORDBOARD" with "CROSSCHASM_C5_CELLULAR";
+For the CrossChasm C5 BLE, replace "FORDBOARD" with "CROSSCHASM_C5_BLE";
+For the CrossChasm C5 BT, replace "FORDBOARD" with "CROSSCHASM_C5_BT"
 
 5) Close out
 
