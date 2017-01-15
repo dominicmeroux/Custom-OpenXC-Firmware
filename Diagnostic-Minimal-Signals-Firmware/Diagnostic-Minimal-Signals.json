@@ -62,7 +62,7 @@
         {
             "bus": "hs",
             "id": 2015,
-            "mode": 2,
+            "mode": 1,
             "pid": 81,
             "frequency": 0.01,
             "decoder": "handleObd2Pid",
@@ -98,9 +98,18 @@
         {
             "bus": "hs",
             "id": 2015,
-            "mode": 2,
+            "mode": 1,
+            "pid": 94,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "engine_fuel_rate"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
             "pid": 95,
-            "frequency": 0.1,
+            "frequency": 0.01,
             "decoder": "handleObd2Pid",
             "name": "emission_requirements_to_which_vehicle_is_designed"
         },
@@ -130,14 +139,6 @@
             "frequency": 1,
             "decoder": "handleObd2Pid",
             "name": "PM_sensor"
-        },
-        {
-            "bus": "hs",
-            "id": 2015,
-            "mode": 3,
-            "frequency": 0.1,
-            "decoder": "handleObd2Pid",
-            "name": "request_trouble_codes"
         }
     ]
 }
