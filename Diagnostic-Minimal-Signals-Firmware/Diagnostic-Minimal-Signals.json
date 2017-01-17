@@ -5,12 +5,7 @@
         "hs": {
             "controller": 1,
             "raw_writable": true,
-            "speed": 500000,
-            "raw_can_mode": "filtered"
-        },
-        "ms": {
-            "controller": 2,
-            "speed": 125000
+            "speed": 500000
         }
     },
     "diagnostic_messages": [
