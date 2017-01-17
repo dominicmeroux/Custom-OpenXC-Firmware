@@ -2,7 +2,7 @@
 
 The C5 Cellular firmware files would need to be modified to match the specified string in the POST request (see https://groups.google.com/forum/#!topic/openxc/io9_QBcgYf8). If the point is to test whether the signals are working before compiling your own firmware, you can connect to the C5 Cellular via USB and type Python library commands at the terminal - e.g. $ openxc-dump
 
-(COMING SOON: versions of C5 Cellular and C5 BT with MSD_ENABLE=1)
+The C5 BT was compiled with MSD_ENABLE=1 to take advantage of the SD card storage capability.
 
 ## vi-firmware-FORDBOARD.bin
 
@@ -80,7 +80,7 @@ Compiled with options:
 -      1                   = BOOTLOADER 
 -      0                   = TEST_MODE_ONLY 
 -      0                   = DEBUG 
--      0                   = MSD_ENABLE 
+-      1                   = MSD_ENABLE 
 -      180                 = DEFAULT_FILE_GENERATE_SECS 
 -      0                   = DEFAULT_METRICS_STATUS 
 -      1                   = DEFAULT_ALLOW_RAW_WRITE_USB 
