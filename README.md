@@ -4,12 +4,14 @@ This firmware information is specified to work with the OpenXC Platform. For mor
 ### OpenXC Vehicle Interfaces: https://shop.openxcplatform.com
 
 # Diagnostic Firmware
-The purpose of these configurations is to collect standard diagnostic messages only. Note: messages that you receive will vary by vehicle (for example, 'ethanol_fuel_percentage' worked on a flex-fuel Zipcar Ford Focus I tested out, but did not show up on any standard gasoline-only vehicles I have tested). 
+The purpose of these configurations is to collect standard diagnostic messages only. Note: messages that you receive will vary by vehicle. For example, 'ethanol_fuel_percentage' worked on a flex-fuel Zipcar Ford Focus I tested, and 'hybrid_battery_pack_remaining_life' worked on a BMW i3 extended-range electric car, but neither of these showed up on any standard gasoline-only (non-hybrid) vehicles I have tested. 
+
+A couple of examples of slightly-modified variants of the most updated firmware that were tested on specific vehicles are included in labeled folders, as well as sample JSON output from these vehicles.
 
 ## Diagnostic-Minimal-Signals.json
 This file minimizes the number and frequency of signals in order to keep keep data useage low if sending the data with a C5 Cellular device or cellular mobile device data if streaming the data to a remote web server using the OpenXC Enabler app. The other benefit is this approach reduces computational power needed, which becomes important if collecting data from multiple vehicles over an extended period of time. 
 
-## Full-Signals.json
+## Diagnostic-Full-Signals.json
 This file tests for all possible diagnostic signals. COMING SOON. 
 
 ## Resources

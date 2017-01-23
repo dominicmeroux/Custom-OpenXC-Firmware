@@ -1,0 +1,1 @@
+Tested vehicle as a ReachNow new model BMW i3 extended range electric rented January 22, 2017. Note that the 'hybrid_battery_pack_remaining_life' signal works for this vehicle. The 'fuel_type' signal result is '1' meaning gasoline, but this is logical because this version of the BMW i3 has the gasoline range extender. 
