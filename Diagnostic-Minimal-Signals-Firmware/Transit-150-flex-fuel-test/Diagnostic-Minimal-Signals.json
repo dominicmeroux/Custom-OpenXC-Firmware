@@ -1,0 +1,139 @@
+{   "extra_sources": [
+        "diagnostic_handlers.cpp"
+    ],
+    "buses": {
+        "hs": {
+            "controller": 1,
+            "raw_writable": true,
+            "speed": 500000
+        }
+    },
+    "diagnostic_messages": [
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 1,
+            "frequency": 0.1,
+            "decoder": "handleObd2Pid",
+            "name": "monitor_status_since_DTCs_cleared"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 4,
+            "frequency": 5,
+            "decoder": "handleObd2Pid",
+            "name": "engine_load"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 13,
+            "frequency": 5,
+            "decoder": "handleObd2Pid",
+            "name": "vehicle_speed"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 31,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "running_time"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 47,
+            "frequency": 0.1,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_level"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 81,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_type"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 82,
+            "frequency": 0.1,
+            "decoder": "handleObd2Pid",
+            "name": "ethanol_fuel_percentage"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 90,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "accelerator_pedal_position"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 91,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "hybrid_battery_pack_remaining_life"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 94,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "engine_fuel_rate"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 95,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "emission_requirements_to_which_vehicle_is_designed"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 99,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "engine_torque"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 131,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "NOx_sensor"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 134,
+            "frequency": 1,
+            "decoder": "handleObd2Pid",
+            "name": "PM_sensor"
+        }
+    ]
+}
