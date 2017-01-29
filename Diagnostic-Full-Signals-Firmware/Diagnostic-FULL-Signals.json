@@ -772,7 +772,43 @@
             "pid": 85,
             "frequency": 0.01,
             "decoder": "handleObd2Pid",
-            "name": "short_term_secondary_oxygen_sensor_trip_A_bank_1_B_bank_3"
+            "name": "short_term_secondary_oxygen_sensor_trim_A_bank_1_B_bank_3"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 86,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "long_term_secondary_oxygen_sensor_trim_A_bank_1_B_bank_3"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 87,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "short_term_secondary_oxygen_sensor_trim_A_bank_2_B_bank_4"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 88,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "long_term_secondary_oxygen_sensor_trim_A_bank_2_B_bank_4"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 89,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_rail_absolute_pressure"
         },
         {
             "bus": "hs",
@@ -805,6 +841,15 @@
             "bus": "hs",
             "id": 2015,
             "mode": 1,
+            "pid": 93,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_injection_timing"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
             "pid": 94,
             "frequency": 1,
             "decoder": "handleObd2Pid",
@@ -823,10 +868,109 @@
             "bus": "hs",
             "id": 2015,
             "mode": 1,
+            "pid": 96,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "PIDs_supported_61_80"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 97,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "drivers_demand_engine_percent_torque"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 98,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "actual_engine_percent_torque"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
             "pid": 99,
             "frequency": 1,
             "decoder": "handleObd2Pid",
             "name": "engine_torque"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 100,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "engine_percent_torque_data"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 101,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "auxiliary_input_output_supported"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 102,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "mass_air_flow_sensor"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 103,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "engine_coolant_temperature"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 104,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "intake_air_temperature_sensor"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 105,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "commanded_EGR_and_EGR_error"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 106,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "commanded_diesel_intake_air_flow_ctrl_and_rel_intake_air_flow_pos"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 107,
+            "frequency": 0.01,
+            "decoder": "handleObd2Pid",
+            "name": "exhaust_gas_recirculation_temp"
         },
         {
             "bus": "hs",
