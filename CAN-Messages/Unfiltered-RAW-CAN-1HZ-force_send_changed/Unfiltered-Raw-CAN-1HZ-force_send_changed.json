@@ -1,0 +1,10 @@
+{   "buses": {
+        "hs": {
+            "controller": 1,
+            "speed": 500000,
+            "raw_can_mode": "unfiltered",
+            "max_message_frequency": 1,
+            "force_send_changed": true
+        }
+    }
+}
