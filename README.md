@@ -12,14 +12,14 @@ A couple of examples of slightly-modified variants of the most updated firmware 
 This file minimizes the number and frequency of signals in order to keep keep data useage low if sending the data with a C5 Cellular device or cellular mobile device data if streaming the data to a remote web server using the OpenXC Enabler app. The other benefit is this approach reduces computational power needed, which becomes important if collecting data from multiple vehicles over an extended period of time. 
 
 ## Diagnostic-Full-Signals.json
-This file tests for all possible diagnostic signals. COMING SOON. 
+This file tests for all possible diagnostic signals. 
 
 ## Resources
 For more information on standard diagnostic OBD specification, go to: https://en.wikipedia.org/wiki/OBD-II_PIDs
 Note: to obtain the integer PID, run (for example) "int("0x51", 0)" in Python. Or, to convert from int to hex, run (for example) "hex(2025)"
 
 # CAN Messages Firmware
-COMING SOON
+Requires access to proprietary CAN signals. While I include a simple example to output raw CAN signals (copied from the OpenXC site), the OpenXC Platform's web page on firmware configuration provides the best information on creating firmware if you have access to these signals: http://vi-firmware.openxcplatform.com/en/latest/getting-started/getting-started.html
 
 # Bicycle Data Emulator
 Use the modified data_emulator.cpp file in place of the file with the same name in the vi-firmware directory (once you have your environment set up). 
