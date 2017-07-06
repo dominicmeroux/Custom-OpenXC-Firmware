@@ -1,0 +1,317 @@
+{   
+    "buses": {
+        "hs": {
+            "controller": 1,
+            "raw_writable": true,
+            "speed": 500000
+        }
+    },
+    "diagnostic_messages": [
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 2,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "freeze_DTC"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 8,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "short_term_fuel_trim_bank_2"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 9,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "long_term_fuel_trim_bank_2"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 10,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_pressure"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 12,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "engine_rpm"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 13,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "vehicle_speed"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 16,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "MAF_air_flow_rate"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 31,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "running_time"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 32,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "PIDs_supported"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 33,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "distance_traveled_with_MIL_on"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 47,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_level"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 49,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "distance_traveled_since_codes_cleared"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 50,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "evap_system_vapor_pressure"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 51,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "absolute_barometric_pressure"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 60,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "catalyst_temperature_bank_1_sensor_1"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 61,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "catalyst_temperature_bank_2_sensor_1"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 62,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "catalyst_temperature_bank_1_sensor_2"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 63,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "catalyst_temperature_bank_2_sensor_2"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 64,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "PIDs_supported_40_60"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 66,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "control_module_voltage"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 67,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "absolute_load_value"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 68,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_air_commanded_equivalence_ratio"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 70,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "ambient_air_temperature"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 77,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "time_run_with_MIL_on"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 78,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "time_since_trouble_codes_cleared"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 81,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_type"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 90,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "accelerator_pedal_position"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 92,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "engine_oil_temperature"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 93,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "fuel_injection_timing"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 94,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "engine_fuel_rate"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 95,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "emission_requirements_to_which_vehicle_is_designed"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 96,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "PIDs_supported_61_80"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 99,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "engine_torque"
+        },
+        {
+            "bus": "hs",
+            "id": 2015,
+            "mode": 1,
+            "pid": 102,
+            "frequency": 0.2,
+            "decoder": "handleObd2Pid",
+            "name": "mass_air_flow_sensor"
+        }
+    ]
+}

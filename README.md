@@ -12,7 +12,7 @@ A couple of examples of slightly-modified variants of the most updated firmware 
 This file minimizes the number and frequency of signals in order to keep keep data useage low if sending the data with a C5 Cellular device or cellular mobile device data if streaming the data to a remote web server using the OpenXC Enabler app. The other benefit is this approach reduces computational power needed, which becomes important if collecting data from multiple vehicles over an extended period of time. 
 
 ## Diagnostic-Full-Signals.json
-This file tests for all possible diagnostic signals. 
+This file tests for all possible diagnostic signals. NOTE: Someone pointed out to me that not all signals that are expected to come out do. I'm testing this more, but my (currently unvalidated) theory is that either there may be a limit to all of the `0x7df` variables that will be returned, or maybe frequency needs to be modified. Updates coming soon. 
 
 ## Resources
 For more information on standard diagnostic OBD specification, go to: https://en.wikipedia.org/wiki/OBD-II_PIDs
